@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oumra_Prestige</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+     <link rel="icon" href="./image/photo.jpg" type="image/png">
+
+
+    <link rel="stylesheet" href="./css/stle.css">
+</head>
+<body>
+
+
+
+
+    <nav class="navbar navbar-expand-lg bg-white shadow-sm fixed-top">
+  <div class="container">
+    <a class="navbar-brand fw-bold d-flex align-items-center gap-2" href="#">
+      <span class="bg-warning text-white rounded-circle d-inline-flex justify-content-center align-items-center" style="width:40px;height:40px;">OP</span>
+      Oumra Prestige
+    </a>
+
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="mainNav">
+      <ul class="navbar-nav mx-auto mb-2 mb-lg-0 gap-lg-3">
+        <li class="nav-item"><a class="nav-link" href="./index.html">Accueil</a></li>
+        <li class="nav-item"><a class="nav-link" href="./a_propos.html">À propos</a></li>
+        <li class="nav-item"><a class="nav-link  fw-semibold text-warning" href="./reserv.html">Réservation</a></li>
+        <li class="nav-item"><a class="nav-link" href="./conta.html">Contact</a></li>
+      </ul>
+
+      <div class="d-flex gap-2">
+        <a class="btn btn-outline-secondary bg-secondary rounded-pill px-4 text-white" href="./conexion.html">Connexion</a>
+        <a class="btn btn-warning text-white rounded-pill px-4" href="./s-inscrir.html">S'inscrire</a>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<section class="py-5 text-center text-white" style="background: linear-gradient(135deg, #ffc107); min-height: 300px; display: flex; align-items: center; justify-content: center;">
+        <div class="container">
+            <h1 class="display-3 fw-bold mb-3">Réservez votre Oumra</h1>
+            <p class="lead">Commencez Votre Voyage Spirituel Avec Nous</p>
+        </div>
+    </section>
+
+
+
+<!-- Reservation Form Section -->
+    <section class="py-5">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="card border-0 shadow-sm">
+                        <div class="card-body p-4 p-md-5">
+                            <form>
+                                <!-- Section 1: Informations personnelles -->
+                                <div class="mb-5">
+                                    <div class="d-flex align-items-center mb-4">
+                                        <div class="bg-warning rounded-circle d-flex align-items-center justify-content-center me-3" style="width: 45px; height: 45px;">
+                                            <span class="fw-bold text-white fs-5">1</span>
+                                        </div>
+                                        <h3 class="fw-bold mb-0">Informations personnelles</h3>
+                                    </div>
+
+                                    <div class="row g-3">
+                                        <div class="col-md-6">
+                                            <label class="form-label fw-semibold">Nom <span >*</span></label>
+                                            <input type="text" class="form-control  shadow-none out" placeholder="Votre nom">
+                                        </div>
+                                        <div class="col-md-6">
+                                            <label class="form-label fw-semibold">Prénom <span >*</span></label>
+                                            <input type="text" class="form-control shadow-none out" placeholder="Votre prénom">
+                                        </div>
+                                        <div class="col-md-6">
+                                            <label class="form-label fw-semibold ">Email <span >*</span></label>
+                                            <input type="email" class="form-control shadow-none out" placeholder="votre.email@exemple.ne">
+                                        </div>
+                                        <div class="col-md-6">
+                                            <label class="form-label fw-semibold">Téléphone <span >*</span></label>
+                                            <input type="tel" class="form-control shadow-none out" placeholder="+227 12 34 56 78">
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Section 2: Détails du voyage -->
+                                <div class="mb-5">
+                                    <div class="d-flex align-items-center mb-4">
+                                        <div class="bg-warning rounded-circle d-flex align-items-center justify-content-center me-3" style="width: 45px; height: 45px;">
+                                            <span class="fw-bold text-white fs-5">2</span>
+                                        </div>
+                                        <h3 class="fw-bold mb-0">Détails du voyage</h3>
+                                    </div>
+
+                                    <div class="row g-3">
+                                        <div class="col-md-6">
+                                            <label class="form-label fw-semibold">Type de formule <span >*</span></label>
+                                            <select class="form-select  shadow-none out">
+                                                <option selected>Choisir une formule</option>
+                                                <option>Formule Économique</option>
+                                                <option>Formule Standard</option>
+                                                <option>Formule Premium</option>
+                                                <option>Formule VIP</option>
+                                            </select>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <label class="form-label fw-semibold">Durée du séjour <span >*</span></label>
+                                            <select class="form-select out">
+                                                <option selected>Choisir une durée</option>
+                                                <option>7 jours</option>
+                                                <option>10 jours</option>
+                                                <option>14 jours</option>
+                                                <option>21 jours</option>
+                                            </select>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <label class="form-label fw-semibold">Date de départ <span >*</span></label>
+                                            <input type="date" class="form-control shadow-none out">
+                                        </div>
+                                        <div class="col-md-6">
+                                            <label class="form-label fw-semibold">Nombre de personnes <span >*</span></label>
+                                            <input type="number" class="form-control shadow-none out" value="1" min="1">
+                                        </div>
+                                        <div class="col-12">
+                                            <label class="form-label fw-semibold">Aéroport de départ <span >*</span></label>
+                                            <select class="form-select shadow-none out">
+                                                <option selected>Choisir un aéroport</option>
+                                                <option>Niamey (Niger)</option>
+                                                <option>japoon</option>
+                                                <option>Dubai</option>
+                                                <option>Autre</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Section 3: Options supplémentaires -->
+                                <div class="mb-5">
+                                    <div class="d-flex align-items-center mb-4">
+                                        <div class="bg-warning rounded-circle d-flex align-items-center justify-content-center me-3" style="width: 45px; height: 45px;">
+                                            <span class="fw-bold text-white fs-5">3</span>
+                                        </div>
+                                        <h3 class="fw-bold mb-0">Options supplémentaires</h3>
+                                    </div>
+
+                                    <div class="form-check mb-3">
+                                        <input class="form-check-input " type="checkbox" id="visa">
+                                        <label class="form-check-label" for="visa">
+                                            <strong>Assistance visa</strong><br>
+                                            <small class="text-muted">Nous nous occupons de toutes les démarches administratives (+150€)</small>
+                                        </label>
+                                    </div>
+
+                                    <div class="form-check mb-3">
+                                        <input class="form-check-input" type="checkbox" id="assurance">
+                                        <label class="form-check-label" for="assurance">
+                                            <strong>Assurance voyage</strong><br>
+                                            <small class="text-muted">Protection complète pendant votre séjour (+100€)</small>
+                                        </label>
+                                    </div>
+
+                                    <div class="form-check mb-3">
+                                        <input class="form-check-input" type="checkbox" id="guide">
+                                        <label class="form-check-label" for="guide">
+                                            <strong>Guide privé</strong><br>
+                                            <small class="text-muted">Accompagnement personnalisé exclusif (+500€)</small>
+                                        </label>
+                                    </div>
+
+                                    <div class="form-check mb-3">
+                                        <input class="form-check-input" type="checkbox" id="chambre">
+                                        <label class="form-check-label" for="chambre">
+                                            <strong>Chambre individuelle</strong><br>
+                                            <small class="text-muted">Supplément chambre single (+300€)</small>
+                                        </label>
+                                    </div>
+                                </div>
+
+                                <!-- Demandes spéciales -->
+                                <div class="mb-4">
+                                    <label class="form-label fw-semibold">Demandes spéciales ou informations complémentaires</label>
+                                    <textarea class="form-control" rows="4" placeholder="Allergies alimentaires, besoins médicaux, préférences particulières..."></textarea>
+                                </div>
+
+                                <!-- Récapitulatif -->
+                                <div class="card border-warning mb-4" style="background-color: #fffef7;">
+                                    <div class="card-body">
+                                        <h4 class="fw-bold mb-3">Récapitulatif</h4>
+                                        <div class="d-flex justify-content-between align-items-center mb-2">
+                                            <span>Prix total estimé :</span>
+                                            <h3 class="text-warning fw-bold mb-0">0€</h3>
+                                        </div>
+                                        <small class="text-muted">* Prix définitif confirmé après validation</small>
+                                    </div>
+                                </div>
+
+                                <!-- Conditions -->
+                                <div class="form-check mb-4">
+                                    <input class="form-check-input" type="checkbox" id="conditions" required>
+                                    <label class="form-check-label" for="conditions">
+                                        J'accepte les <a href="#" class="text-warning text-decoration-none">conditions générales de vente</a> et la <a href="#" class="text-warning text-decoration-none">politique de confidentialité</a> <span >*</span>
+                                    </label>
+                                </div>
+
+                                <!-- Submit Button -->
+                                <button type="submit" class="btn btn-warning w-100 py-3 fw-semibold mb-3">
+                                    Confirmer ma réservation
+                                </button>
+                                <div class="text-center">
+                                    <small class="text-muted">
+                                        <i class="fas fa-lock me-2"></i>Paiement sécurisé - Vos données sont protégées
+                                    </small>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+<footer class="text-light pt-5 bg-dark" >
+  <div class="container">
+
+    <div class="row gy-4">
+      <!-- Col 1 -->
+      <div class="col-lg-3 col-md-6">
+        <h5 class="fw-bold text-warning">Oumra Prestige</h5>
+        <p class=" mt-3 text-white">
+          Votre partenaire de confiance pour un voyage spirituel inoubliable vers La Mecque.
+        </p>
+      </div>
+
+      <!-- Col 2 -->
+      <div class="col-lg-3 col-md-6">
+        <h5 class="fw-bold">Liens Rapides</h5>
+        <ul class="list-unstyled mt-3">
+          <li><a href="#" class="footer-link">Accueil</a></li>
+          <li><a href="#" class="footer-link">À propos</a></li>
+          <li><a href="#" class="footer-link">Réservation</a></li>
+          <li><a href="#" class="footer-link">Contact</a></li>
+        </ul>
+      </div>
+
+      <!-- Col 3 -->
+      <div class="col-lg-3 col-md-6">
+        <h5 class="fw-bold">Contact</h5>
+        <ul class="list-unstyled mt-3 text-white">
+          <li class="mb-2">
+            <i class="bi bi-telephone me-2"></i> +227 23 45 67 89
+          </li>
+          <li class="mb-2">
+            <i class="bi bi-envelope me-2"></i> contact@oumraprestige.ne
+          </li>
+          <li>
+            <i class="bi bi-geo-alt me-2"></i> Niamey, Niger
+          </li>
+        </ul>
+      </div>
+
+      <!-- Col 4 -->
+      <div class="col-lg-3 col-md-6">
+        <h5 class="fw-bold">Suivez-nous</h5>
+        <div class="d-flex gap-3 mt-3">
+          <a href="#" class="social-icon text-white"><i class="bi bi-facebook"></i></a>
+          <a href="#" class="social-icon"><i class="bi bi-linkedin"></i></a>
+          <a href="#" class="social-icon"><i class="bi bi-instagram"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Divider -->
+    <hr class="border-secondary my-4">
+
+    <!-- Copyright -->
+    <div class="text-center text-muted pb-3 text-white">
+      © 2024 Oumra Prestige. Tous droits réservés.
+    </div>
+
+  </div>
+</footer>
+
+
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
