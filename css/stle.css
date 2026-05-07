@@ -2,7 +2,7 @@
   height: 100vh;
   background: url("../image/tourne.jpg");
   position: relative;
-  background-attachment: fixed;
+ 
 }
 
 .hero-section .overlay {
